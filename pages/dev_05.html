@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" >
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<title>Home Page</title>
+
+<link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .navbar-nav {
+	       position: absolute;
+            right: 0;
+}
+        .container-fluid {
+	       width: 100vw;
+            height: 100vh;
+            background-image: url('../img/Background_Image.png');
+}
+        .nav-link{
+            font-family: Amaranth;
+            font-size: 20px;
+            
+        }
+        h1{
+            font-size: 5vw;
+            margin-top: 15vh;
+            padding-left: 17vw;
+            font-family: Berkshire Swash;
+        }
+        
+        p{
+            padding-left: 21vw;
+            position: absolute;
+            top: 0;right: 0;bottom: 0;left: 0;
+            padding-top: 42vh;
+            font-family: Berkshire Swash;
+            font-size: 1.5vw;
+        }
+        
+        .btn {
+	       color: white !important;
+            background-color: #f8112c;
+            margin-left: 21vw;
+}
+ 
+        @media only screen and(max-width:400px){
+           .row p{
+                padding-top: 30vh;
+                }
+        }
+        
+    </style>
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-xl navbar-light">
+            
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarcontent" aria-controls="navbarcontent" aria-expanded="false" aria-label="Toggle navigation">
+                
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarcontent">
+                <ul class="navbar-nav mt-5 pr-5">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../index.html">Web Dev Project <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" target="_blank">Code Academy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Dev Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Me </a>
+                    </li>
+                </ul>
+            </div>
+            
+        </nav>
+        
+        <div class="row">
+            <div class="col-12">
+                <h1>Here We Go!>>></h1>
+                <div class="row">
+                    <p>BootStrap Layout...!</p>
+                </div>
+                <a class="btn px-4 py-2 mt-4">GitHub Profile!</a>
+            </div>
+        </div>
+    </div>
+    <script src="bootstrap-4.0.0-dist/js/jquery-3.3.1.min.js"></script>
+    <script src="bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+    
+</body>
+</html>
